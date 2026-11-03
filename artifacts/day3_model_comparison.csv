@@ -1,0 +1,4 @@
+Model,Best CV Recall,Test Accuracy,Test Precision,Test Recall,Test F1 Score,Best Parameters
+SVM,0.8354515050167224,0.6941092973740242,0.45752608047690013,0.820855614973262,0.5875598086124402,"{'classifier__C': 0.1, 'classifier__gamma': 'scale', 'classifier__kernel': 'linear'}"
+Random Forest,0.8053511705685619,0.7395315826827538,0.5060240963855421,0.786096256684492,0.6157068062827226,"{'classifier__max_depth': 5, 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 5, 'classifier__n_estimators': 200}"
+Decision Tree,0.7933110367892977,0.7544357700496807,0.5262172284644194,0.7513368983957219,0.6189427312775331,"{'classifier__criterion': 'entropy', 'classifier__max_depth': 5, 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 2}"

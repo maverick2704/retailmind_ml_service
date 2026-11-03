@@ -51,7 +51,7 @@ from fastapi import FastAPI, HTTPException
 from src.schemas import CustomerInput
 
 
-MODEL_PATH = "artifacts/champion_model.joblib"
+MODEL_PATH = "artifacts/churn_model_v3.joblib"
 
 app = FastAPI(
     title="RetailMind AI - Churn Prediction API"
@@ -73,7 +73,7 @@ def predict(customer: CustomerInput):
     if model is None:
         raise HTTPException(
             status_code=503,
-            detail="Champion model not found. Run: python -m src.train_day2"
+            detail="Day 3 model not found. Run: python -m src.train_day3"        
         )
 
     data = pd.DataFrame([customer.model_dump()])
