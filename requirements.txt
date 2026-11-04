@@ -4,3 +4,5 @@ joblib
 fastapi
 uvicorn
 pydantic
+matplotlib
+xgboost
