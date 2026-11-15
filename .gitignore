@@ -2,7 +2,9 @@
 __pycache__/
 *.pyc
 .env
-.vscode/
 
 *.keras
+*.joblib
 *.pt
+
+runs/
